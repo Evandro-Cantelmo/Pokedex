@@ -1,0 +1,60 @@
+.card{
+    background:rgb(212, 48, 48);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: black 1px 1px 9px;
+    margin: 33px;
+}
+.bola_azul{
+    background:rgb(0, 101, 196);
+    margin:20px 0 0 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 4px solid white;
+    box-shadow: black 1px 1px 3px;
+}
+.container{
+    display: flex;
+}
+.bolas_topo{
+    background: rgb(0, 92, 0);
+    border: black 0.5px solid;
+    width: 10px;
+    border-radius: 100%;
+    height: 10px;
+    margin: 35px 0 0 20px;
+    box-shadow: black 1px 1px 3px;
+}
+.layout_tela{
+    background: #cccccc;
+    width: 210px;
+    height: 180px;
+    margin-left: -130px;
+    border-radius: 5px 5px 5px 40px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black 1px 1px 3px;
+}
+.tela{
+    background: rgb(41, 41, 41);
+    width: 160px;
+    height: 130px;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 3px;
+    text-align: center;
+    color: blanchedalmond;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
