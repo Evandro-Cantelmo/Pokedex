@@ -16,7 +16,7 @@ function Card(props) {
         <div className="tela">
           <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${props.imageIndex}.gif`}></img>
           <p>{props.name}</p>
-        </div>
+        </div> 
       </div>
       <div className="flex_end">
         <div className="bola_verde"></div>
